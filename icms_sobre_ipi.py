@@ -1,4 +1,7 @@
 import streamlit as st
+from fpdf import FPDF
+from io import BytesIO
+from datetime import date
 
 st.set_page_config(page_title="ICMS sobre IPI e IPI sobre ICMS", page_icon="🧮", layout="centered")
 
